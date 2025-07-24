@@ -155,6 +155,8 @@ body {
 }
 
 /* Banner Section End */
+
+/* MOBILE RESPONSIVE Banner Section Start */
 @media screen and (max-width: 450px) {
     .banner-container {
         flex-direction: column-reverse;
@@ -190,6 +192,7 @@ body {
     }
 
 }
+/* MOBILE RESPONSIVE Banner Section End */
 
 /* PRODUCTS STYLES START */
 
@@ -377,4 +380,98 @@ body {
 }
 
 
-/* MOBILE RESPONSIVE Plants Lover Section Style Start */
+/* MOBILE RESPONSIVE Plants Lover Section Style End */
+
+/* Deal Section Styles Start */
+
+.deals-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+
+.deals-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deals-message {
+  text-align: center;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.deals-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.deal-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.deal-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  filter: brightness(60%);
+}
+
+/* Small cards */
+.deal-card.small {
+  width: 366.22px;
+  height: 206px;
+}
+
+/* Large card */
+.deal-card.large {
+  flex-shrink: 0;
+  width: 753px;
+  height: 423.13px;
+  margin: 0 10px;
+}
+
+
+.deal-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering */
+  text-align: center;
+  color: white;
+  z-index: 2;
+  padding: 10px;
+}
+
+.deal-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deal-text p {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Deal Section Styles End */
+
