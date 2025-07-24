@@ -79,7 +79,7 @@ body {
     height: 20px;
 }
 /* Mobile Responsive Navbar start*/
-@media (max-width: 768px) {
+@media screen and (max-width: 450px) {
     .navbar {
         padding: 13px 16px;
     }
@@ -155,7 +155,7 @@ body {
 }
 
 /* Banner Section End */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
     .banner-container {
         flex-direction: column-reverse;
         align-items: center;
@@ -191,4 +191,107 @@ body {
 
 }
 
-    
+/* PRODUCTS STYLES START */
+
+.products {
+  text-align: center;
+}
+.products-heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.products-discription {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.products-box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.products-box {
+    width: 270px;
+    height: 484.94px;
+    margin-bottom: 30px;
+}
+.products-image{
+    width: 270px;
+    height: 322.94px;
+    margin-bottom: 50px;
+}
+
+.products-name{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.products-price{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.products-addcart{
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    padding: 15px 26px;
+}
+
+/* PRODUCTS STYLES END */
+
+/* MOBILE RESPONSIVE PRODUCTS STYLES START */
+
+    @media screen and (max-width: 450px) {
+  .products-heading {
+    font-size: 24px;
+  }
+
+  .products-discription {
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+
+  .products-box-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 0 20px;
+    margin: 100px;
+  }
+
+  .products-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+   .products-name{
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+  }
+  .products-price{
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+  }
+
+  .products-addcart {
+    width: 171px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 50px 26px 50px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+/* MOBILE RESPONSIVE PRODUCTS STYLES END */
+
