@@ -518,3 +518,57 @@ body {
 }
 
 /* Mobile Responsive Deal Section Styles End */
+
+/* JOIN SECTION STYLE START */
+.join-section {
+  background-image: url('./assets/news-letter-bg.png');
+  width: 1140px;
+  height: 433px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.join-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 586px;
+  height: 68px;
+  color: rgb(255, 255, 255);
+}
+
+.join-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.join-form input[type="email"] {
+  padding: 20px 15px;
+  font-size: 16px;
+  border: none;
+  width: 730px;
+  height: 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.join-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(233, 90, 8, 1);
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: rgb(232, 48, 48);
+}
+
+/* JOIN SECTION STYLE END */
