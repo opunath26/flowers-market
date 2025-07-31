@@ -81,7 +81,7 @@ body {
 }
 
 /* Mobile Responsive container */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     .container {
         width: 100%;
         padding: 0 15px;
@@ -89,7 +89,7 @@ body {
     }
 }
 /* Mobile responsive header */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     header {
         width: 100%;
         padding: 0 15px; /* Add some padding on sides */
@@ -98,7 +98,7 @@ body {
 }
 
 /* Mobile Responsive Navbar start*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     .navbar {
         padding: 13px 16px;
     }
@@ -176,7 +176,7 @@ body {
 /* Banner Section End */
 
 /* MOBILE RESPONSIVE Banner Section Start */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     .banner-container {
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -186,8 +186,7 @@ body {
     }
 
     .banner-img img {
-        width: 700px;
-        /* height: 300px; */
+        width: 400px;
         object-fit: cover;
         margin-bottom: 28px;
     }
@@ -204,6 +203,7 @@ body {
         font-size: 24px;
         font-weight: bold;
         margin-bottom: 13px;
+        letter-spacing: 2px;
     }
 
     .banner-discription {
@@ -271,9 +271,10 @@ body {
 
 /* MOBILE RESPONSIVE PRODUCTS STYLES START */
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 414px) {
   .products-heading {
     font-size: 24px;
+    margin-top: 50px;
   }
 
   .products-discription {
@@ -281,31 +282,40 @@ body {
     width: 336px;
     height: 68px;
   }
+  .products-box{
+    width: 171px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+  }
 
   .products-box-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    margin: 10px;
+    /* gap: 30px; */
   }
 
-  .products-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  .products-image img {
+    width: 171px;
+    height: 196.5px;
   }
 
    .products-name{
     color: rgb(17, 17, 17);
     font-size: 16px;
+    margin: 0;
   }
   .products-price{
     color: rgb(17, 17, 17);
     font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 0;
   }
 
   .products-addcart {
-    width: 171px;
-    height: 50px;
+    width: 70px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,11 +376,11 @@ body {
 
 /* MOBILE RESPONSIVE Plants Lover Section Style Start */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .plants-lover {
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 0;
   }
 
   .plants-store-img img {
@@ -393,8 +403,9 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    text-align: left;
+    margin: 0 -20px;
   }
+  
 }
 
 
@@ -494,7 +505,7 @@ body {
 
 /* Mobile Responsive Deal Section Styles Start */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .plants-lover{
     padding: 30px 15px;
   }
@@ -523,7 +534,7 @@ body {
   }
 
   .deal-card.large {
-    width: 92%;
+    width: 100%;
     height: auto;
     margin: 0 0 20px 0;
   }
@@ -595,17 +606,20 @@ body {
 
 /* Mobile Responsive JOIN SECTION STYLE START */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .join-section{
-    width: 100%;
-    height: auto;
-    padding: 100px 10px;
+    width: 393px;
+    height: 275px;
+    padding: 0px 10px;
     background-size: cover;
+    
   }
   .join-title {
     font-size: 40px;
-    width: 100%;
-    height: auto;
+    width: 335px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .join-form {
@@ -615,17 +629,17 @@ body {
   }
 
   .join-form input[type="email"] {
-    width: 318px;
-    height: 30px;
-    padding: 20px;
-    font-size: 20px;
+    width: 218px;
+    height: 20px;
+    padding: 15px;
+    font-size: 15px;
   }
 
   .join-button {
-    width: px;
-    height: 70px;
-    padding: 20px;
-    font-size: 20px;
+    width: 103px;
+    height: 50px;
+    padding: 15px;
+    font-size: 15px;
   }
 }
 
@@ -705,7 +719,7 @@ body {
 
 /* MOBILE RESPONSIVE FOOTER  STYLES START  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .footer{
     padding: 30px 20px;
   }
